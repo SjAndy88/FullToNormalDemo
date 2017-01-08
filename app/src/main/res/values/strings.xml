@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">FullToNormalDemo</string>
+    <string name="full">FullScreen</string>
+    <string name="btn0">To Normal 0</string>
+    <string name="btn1">To Normal 1</string>
+    <string name="btn2">To Normal 3</string>
+    <string name="normal_0">Root view is CoordinatorLayout， and fitsSystemWindows = true\n</string>
+    <string name="normal_1">Root view is FrameLayout(fitsSystemWindows = true), and call smoothSwitchScreen before setContentView in Activity.onCreate()</string>
+    <string name="normal_2">Root view is FrameLayout(fitsSystemWindows = false), and call smoothSwitchScreenWithPadding before setContentView in Activity.onCreate()</string>
+</resources>
