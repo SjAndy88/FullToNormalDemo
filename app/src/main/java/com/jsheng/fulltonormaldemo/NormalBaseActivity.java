@@ -18,6 +18,7 @@ public abstract class NormalBaseActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         doSomethingBefore();
         setContentView(getContentLayoutId());
+        doSomethingAfter();
         ButterKnife.bind(this);
 
         setSupportActionBar(mToolbar);
@@ -32,6 +33,10 @@ public abstract class NormalBaseActivity extends AppCompatActivity {
     }
 
     protected abstract int getContentLayoutId();
+
+    protected void doSomethingAfter() {
+
+    }
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
