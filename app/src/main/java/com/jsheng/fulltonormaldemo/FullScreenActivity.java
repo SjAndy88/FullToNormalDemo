@@ -56,7 +56,7 @@ public class FullScreenActivity extends AppCompatActivity {
                 targetActivity = Normal2Activity.class;
                 break;
             case R.id.btn3 :
-                targetActivity = Normal3Activity.class;
+                targetActivity = ProblemActivity.class;
                 break;
 
         }

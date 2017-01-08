@@ -4,7 +4,7 @@ public class Normal0Activity extends NormalBaseActivity {
 
     @Override
     protected int getContentLayoutId() {
-        return R.layout.activity_normal0;
+        return R.layout.activity_normal_coordinatorlayout;
     }
 
 }

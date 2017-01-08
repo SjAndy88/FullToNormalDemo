@@ -8,7 +8,7 @@ public class Normal2Activity extends NormalBaseActivity {
 
     @Override
     protected int getContentLayoutId() {
-        return R.layout.activity_normal2;
+        return R.layout.activity_normal_framelayout;
     }
 
     @Override
