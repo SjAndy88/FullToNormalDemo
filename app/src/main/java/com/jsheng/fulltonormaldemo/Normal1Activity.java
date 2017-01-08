@@ -17,7 +17,7 @@ public class Normal1Activity extends NormalBaseActivity {
     }
 
     private void smoothSwitchToNormal() {
-        if (Build.VERSION.SDK_INT > Build.VERSION_CODES.LOLLIPOP) {
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
             ViewGroup normalContent = ((ViewGroup) findViewById(R.id.normal_content));
             normalContent.setSystemUiVisibility(View.SYSTEM_UI_FLAG_LAYOUT_STABLE | View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN);
             normalContent.setFitsSystemWindows(true);

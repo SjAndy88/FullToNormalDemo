@@ -27,6 +27,9 @@
         <activity android:name=".Normal2Activity"
             android:label="Normal2Activity"
             android:screenOrientation="portrait" />
+        <activity android:name=".Normal3Activity"
+            android:label="Normal3Activity"
+            android:screenOrientation="portrait" />
     </application>
 
 </manifest>

@@ -42,7 +42,7 @@ public class FullScreenActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    @OnClick({R.id.btn0, R.id.btn1, R.id.btn2})
+    @OnClick({R.id.btn0, R.id.btn1, R.id.btn2, R.id.btn3})
     public void onClick(View v) {
         Class<?> targetActivity = Normal0Activity.class;
         switch (v.getId()) {
@@ -54,6 +54,9 @@ public class FullScreenActivity extends AppCompatActivity {
                 break;
             case R.id.btn2 :
                 targetActivity = Normal2Activity.class;
+                break;
+            case R.id.btn3 :
+                targetActivity = Normal3Activity.class;
                 break;
 
         }

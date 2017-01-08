@@ -17,8 +17,8 @@ public class Normal2Activity extends NormalBaseActivity {
     }
 
     private void smoothSwitchScreenWithPadding() {
-        if (Build.VERSION.SDK_INT > Build.VERSION_CODES.LOLLIPOP) {
-            ViewGroup normalContent = ((ViewGroup) this.findViewById(R.id.normal_content));
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
+            ViewGroup normalContent = ((ViewGroup) findViewById(R.id.normal_content));
             normalContent.setSystemUiVisibility(View.SYSTEM_UI_FLAG_LAYOUT_STABLE | View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN);
             int resourceId = getResources().getIdentifier("status_bar_height", "dimen", "android");
             int statusBarHeight = getResources().getDimensionPixelSize(resourceId);
