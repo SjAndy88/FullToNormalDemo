@@ -1,0 +1,2 @@
+# FullToNormalDemo
+AndroidDemo，全屏Activity跳到非全屏Activity
